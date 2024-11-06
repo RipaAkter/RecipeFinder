@@ -1,0 +1,631 @@
+Cook.io - Cooking made easy.
+This is a recipe application made by codewithsadee
+
+
+
+#---------- HEADER ----------#
+
+alt = Cook.io
+
+Home
+Recipes
+
+aria-label = Toggle light and dark theme
+
+<span class="material-symbols-outlined light-icon" aria-hidden="true">light_mode</span>
+<span class="material-symbols-outlined dark-icon" aria-hidden="true">dark_mode</span>
+
+<span class="material-symbols-outlined" aria-hidden="true">book</span>
+Saved Recipes
+
+
+
+#---------- MOBILE NAV ----------#
+
+<span class="material-symbols-outlined" aria-hidden="true">lunch_dining</span>
+Recipes
+
+<span class="material-symbols-outlined" aria-hidden="true">home</span>
+Home
+
+<span class="material-symbols-outlined" aria-hidden="true">book</span>
+Saved
+
+
+
+#---------- HERO ----------#
+
+Your desired dish?
+
+<span class="material-symbols-outlined leading-icon" aria-hidden="true">local_dining</span>
+
+aria-label = Search recipes
+placeholder = Search recipes...
+
+aria-label = Submit
+<span class="material-symbols-outlined" aria-hidden="true">search</span>
+
+Search any recipe e.g: burger, pizza, sandwich, toast.
+
+
+
+#---------- TAB ----------#
+
+aria-label = Meal Type
+
+Breakfast
+Lunch
+Dinner
+Snack
+Teatime
+
+alt = Recipe name
+
+Recipe name
+
+<span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+2 minutes
+
+aria-label = Add to saved Recipes
+
+<span class="material-symbols-outlined bookmark-add" aria-hidden="true">bookmark_add</span>
+<span class="material-symbols-outlined bookmark" aria-hidden="true">bookmark</span>
+
+Show more
+
+
+#---------- RECIPE SLIDER ----------#
+
+Latest Asian Recipes
+
+<span class="material-symbols-outlined" aria-hidden="true">navigate_next</span>
+
+#---------- TAG ----------#
+
+Choose your health preference.
+
+Choosing your health preference is an important step towards achieving a healthier lifestyle.
+
+href = wheat-free
+Wheat-Free
+
+href = vegetarian
+Vegetarian
+
+href = vegan
+Vegan
+
+href = tree-nut-free
+Tree-Nut-Free
+
+href = sulfite-free
+Sulfite-Free
+
+href = sugar-conscious
+Sugar-Conscious
+
+href = soy-free
+Soy-Free
+
+href = shellfish-free
+Shellfish-Free
+
+href = sesame-free
+Sesame-Free
+
+href = red-meat-free
+Red-Meat-Free
+
+href = pork-free
+Pork-Free
+
+href = pecatarian
+Pescatarian
+
+href = peanut-free
+Peanut-Free
+
+href = paleo
+Paleo
+
+href = No-oil-added
+No oil added
+
+href = mustard-free
+Mustard-Free
+
+href = mollusk-free
+Mollusk-Free
+
+href = Mediterranean
+Mediterranean
+
+href = lupine-free
+Lupine-Free
+
+href = low-sugar
+Low Sugar
+
+href = low-potassium
+Low Potassium
+
+href = kosher
+Kosher
+
+href = kidney-friendly
+Kidney-Friendly
+
+href = keto-friendly
+Keto-Friendly
+
+href = immuno-supportive
+Immuno-Supportive
+
+href = gluten-free
+Gluten-Free
+
+href = fodmap-free
+FODMAP-Free
+
+href = fish-free
+Fish-Free
+
+href = egg-free
+Egg-Free
+
+href = DASH
+DASH
+
+href = dairy-free
+Dairy-Free
+
+href = crustacean-free
+Crustcean-Free
+
+href = celery-free
+Celery-Free
+
+href = alcohol-free
+Alcohol-Free
+
+href = alcohol-cocktail
+Alcohol-Cocktail
+
+
+
+#---------- FOOTER ----------#
+
+Copyright 2023 codewithsadee
+
+alt = Cook.io
+
+href = https://www.edamam.com/
+edamam free recipe api
+
+
+
+
+#============== RECIPES PAGE =============#
+
+All Recipes - Cook.io
+
+
+
+#---------- FILTER ----------#
+
+<span class="material-symbols-outlined" aria-hidden="true">filter_list</span>
+Filters
+
+aria-label = Close filter bar
+<span class="material-symbols-outlined" aria-hidden="true">close</span>
+
+Search
+placeholder = Search recipes
+
+<span class="material-symbols-outlined" aria-hidden="true">timer</span>
+Cooking Time
+
+<span class="material-symbols-outlined trailing-icon" aria-hidden="true">expand_more</span>
+
+&lt; 5 minutes
+value = 5
+aria-label = 5 or less minutes
+
+5 - 10 minutes
+value = 5-10
+aria-label = 5 to 10 minutes
+
+10 - 20 minutes
+value = 10-20
+aria-label = 10 to 20 minutes
+
+20 - 30 minutes
+value = 20-30
+aria-label = 20 to 30 minutes
+
+30 - 40 minutes
+value = 30-40
+aria-label = 30 to 40 minutes
+
+40 - 50 minutes
+value = 40-50
+aria-label = 40 to 50 minutes
+
+50 - 60 minutes
+value = 50-60
+aria-label = 50 to 60 minutes
+
+&gt; 1 hours
+value = 60+
+aria-label = 1 or more hours
+
+
+<span class="material-symbols-outlined" aria-hidden="true">nutrition</span>
+Ingredients
+
+&lt; 5 ingredients
+value = 5
+aria-label = 5 or less ingredients
+
+5 - 10 ingredients
+value = 5-10
+aria-label = 5 to 10 ingredients
+
+10 - 20 ingredients
+value = 10-20
+aria-label = 10 to 20 ingredients
+
+20 - 30 ingredients
+value = 20-30
+aria-label = 20 to 30 ingredients
+
+&gt; 30 ingredients
+value = 30+
+aria-label = 30 or more ingredients
+
+
+<span class="material-symbols-outlined" aria-hidden="true">ulna_radius_alt</span>
+Calories
+
+&lt; 50 calories
+value = 50
+aria-label = 50 or less calories
+
+50 - 100 calories
+value = 50-100
+aria-label = 50 to 100 calories
+
+100 - 200 calories
+value = 100-200
+aria-label = 100 to 200 calories
+
+200 - 300 calories
+value = 200-300
+aria-label = 200 to 300 calories
+
+300 - 400 calories
+value = 300-400
+aria-label = 300 to 400 calories
+
+400 - 500 calories
+value = 400-500
+aria-label = 400 to 500 calories
+
+&gt; 500 calories
+value = 500+
+aria-label = 500 or more calories
+
+
+<span class="material-symbols-outlined" aria-hidden="true">spa</span>
+Diet
+
+Balanced
+value = balanced
+
+High Fiber
+value = high-fiber
+
+High Protein
+value = high-protein
+
+Low Carb
+value = low-carb
+
+Low Fat
+value = low-fat
+
+Low Sodium
+value = low-sodium
+
+
+<span class="material-symbols-outlined" aria-hidden="true">health_and_safety</span>
+Health
+
+Alcohol Cocktail
+value = alcohol-cocktail
+
+Alcohol Free
+value = alcohol-free
+
+Celery Free
+value = celery-free
+
+Crustcean Free
+value = crustacean-free
+
+Dairy Free
+value = dairy-free
+
+DASH
+value = DASH
+
+Egg Free
+value = egg-free
+
+Fish Free
+value = fish-free
+
+FODMAP Free
+value = fodmap-free
+
+Gluten Free
+value = gluten-free
+
+Immuno Supportive
+value = immuno-supportive
+
+Keto Friendly
+value = keto-friendly
+
+Kidney Friendly
+value = kidney-friendly
+
+Kosher
+value = kosher
+
+Low Fat Abs
+value = low-fat-abs
+
+Low Potassium
+value = low-potassium
+
+Low Sugar
+value = low-sugar
+
+Lupine Free
+value = lupine-free
+
+Mediterranean
+value = Mediterranean
+
+Mollusk Free
+value = mollusk-free
+
+Mustard Free
+value = mustard-free
+
+No oil added
+value = no-oil-added
+
+Paleo
+value = paleo
+
+Peanut Free
+value = peanut-free
+
+Pescatarian
+value = pescatarian
+
+Pork Free
+value = pork-free
+
+Red Meat Free
+value = red-meat-free
+
+Sesame Free
+value = sesame-free
+
+Shellfish-Free
+value = shellfish-free
+
+Soy Free
+value = soy-free
+
+Sugar Conscious
+value = sugar-conscious
+
+Sulfite Free
+value = sulfite-free
+
+Tree Nut Free
+value = tree-nut-free
+
+Vegan
+value = vegan
+
+Vegetarian
+value = vegetarian
+
+Wheat Free
+value = wheat-free
+
+
+<span class="material-symbols-outlined" aria-hidden="true">restaurant</span>
+Meal
+
+Breakfast
+value = breakfast
+
+Dinner
+value = dinner
+
+Lunch
+value = lunch
+
+Snack
+value = snack
+
+Teatime
+value = teatime
+
+
+<span class="material-symbols-outlined" aria-hidden="true">fastfood</span>
+Dish
+
+Biscuits and cookies
+value = biscuits and cookies
+
+Bread
+value = bread
+
+Cereals
+value = cereals
+
+Condiments and sauces
+value = condiments and sauces
+
+Desserts
+value = desserts
+
+Drinks
+value = drinks
+
+Main course
+value = main course
+
+Pancake
+value = pancake
+
+Preps
+value = preps
+
+Preserve
+value = preserve
+
+Salad
+value = salad
+
+Sandwiches
+value = sandwiches
+
+Side dish
+value = side dish
+
+Soup
+value = soup
+
+Starter
+value = starter
+
+Sweets
+value = sweets
+
+
+<span class="material-symbols-outlined" aria-hidden="true">public</span>
+Cuisine
+
+American
+value = american
+
+Asian
+value = asian
+
+British
+value = british
+
+Caribbean
+value = caribbean
+
+Central Europe
+value = central europe
+
+Chinese
+value = chinese
+
+Eastern Europe
+value = eastern europe
+
+French
+value = french
+
+Indian
+value = indian
+
+Italian
+value = italian
+
+Japanese
+value = japanese
+
+Kosher
+value = kosher
+
+Mediterranean
+value = mediterranean
+
+Mexican
+value = mexican
+
+Middle Eastern
+value = middle eastern
+
+Nordic
+value = nordic
+
+South American
+value = south american
+
+South East Asian
+value = south east asian
+
+
+Clear
+
+Apply
+
+
+
+#---------- RECIPE CONTENT ----------#
+
+All Recipes
+
+aria-label = Open filter bar
+<span class="material-symbols-outlined" aria-hidden="true">filter_list</span>
+Filters
+9
+
+
+
+
+#============== DETAIL PAGE =============#
+
+Cook.io
+
+Restaurant-Style Pan Seared Salmon
+
+<span class="material-symbols-outlined" aria-hidden="true">bookmark_add</span>
+Save
+
+by Jenn Segal
+
+4
+Ingredients
+
+15
+Minutes
+
+384
+Calories
+
+Fish & Seafood
+American
+Dinner
+Salmon
+
+Ingredients
+
+for 6 Servings
+
+2 1/2 pounds skirt steak or sirloin flap steak
+
+Accompaniments: homemade burger buns ; homemade ketchup ; homemade mustard ; homemade pickle relish ; lettuce and tomato
