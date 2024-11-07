@@ -218,7 +218,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-block: calc(--var(--header-height) + 16px) var(--mobile-nav-height);
+  padding-block: calc(var(--header-height) + 16px) var(--mobile-nav-height);
   opacity: 0;
   animation: fade 300ms var(--transition-timing-function) forwards;
 }

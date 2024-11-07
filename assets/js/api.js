@@ -7,6 +7,8 @@ const /**{string} */ APP_ID="ea1d9a09";
 const /**{string} */ APP_KEY="8760b52ba58df307a365818a494c90ec";
 const /**{String} */ TYPE = "public";
 
+
+
 /**
  * @param {Array} queries Query array 
  * @param {Function} successCallback success callback function
