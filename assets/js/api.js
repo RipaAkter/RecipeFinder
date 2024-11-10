@@ -1,16 +1,17 @@
 
 "use strict";
 
-window.ACCESS_POINT = "https://api.edamam.com/api/nutrition-details";
+window.ACCESS_POINT = "https://api.edamam.com/api/recipes/v2";
 
-const /**{string} */ APP_ID="ea1d9a09";
-const /**{string} */ APP_KEY="8760b52ba58df307a365818a494c90ec";
+const /**{string} */ APP_ID="3f53d4ef";
+const /**{string} */ APP_KEY="6a4ba6f54568002d7c6dc33e340dcb59";
 const /**{String} */ TYPE = "public";
 
 
 
 /**
  * @param {Array} queries Query array 
+
  * @param {Function} successCallback success callback function
  */
 
