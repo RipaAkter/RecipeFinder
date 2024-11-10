@@ -189,12 +189,12 @@ for(const [index, $sliderSection] of $sliderSections.entries()) {
         data.hits.map(item =>{
 
             const {
-                recipe:
+                recipe: {
                 image,
                 label: title,
                 totalTime: cookingTime,
                 uri
-
+                }
             } = item;
 
             const /**{String}*/ recipeId = uri.slice(uri.lastIndexOf("_") + 1);
