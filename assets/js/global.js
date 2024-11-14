@@ -50,6 +50,7 @@ window.saveRecipe = function (element, recipeId){
             window.localStorage.setItem(`cookio-recipe${recipeId}`, JSON.stringify (data));
             element.classList.toggle("saved");
             element.classList.toggle("removed");
+            showNotification("Added to Recipe book");
 
         });
         ACCESS_POINT = ROOT;
@@ -57,6 +58,7 @@ window.saveRecipe = function (element, recipeId){
         window.localStorage.removeItem(`cookio-recipe${recipeId}`);
         element.classList.toggle("saved");
         element.classList.toggle("removed");
+        showNotification("Removed from Recipe book");
     }
 }
 
